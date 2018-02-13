@@ -17,10 +17,12 @@
         "symfony/swiftmailer-bundle": "^2.3",
         "gos/web-socket-bundle": "=1.8.12-rc1",
         "symfony/monolog-bundle": "^3.1",
-        "symfony/console": "^4.0"        
+        "symfony/console": "^4.0",
+        "incenteev/composer-parameter-handler": "^2.1"
     },
     "require-dev": {
-        "symfony/debug": "^4.0"
+        "symfony/debug": "^4.0",
+        "symfony/web-server-bundle": "^4.0"
     },
     "scripts": {
         "post-root-package-install": [
